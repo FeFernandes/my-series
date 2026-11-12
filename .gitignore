@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+.venv/
+venv/
+.runtime/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Banco de dados e histórico pessoal
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+
+# Backups
+backups/
+*.bak
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
